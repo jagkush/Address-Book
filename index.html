@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Address book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Address Book</h2>
+    </div>
+    <div>
+        <div>
+           <button class="button" id="addButton">+Add</button>
+        </div>
+
+    <!--Add contact form-->
+        <div class="addForm" style="display: none;">
+                <label>Name <br/><input type="text" value="" placeholder="Name" name="name" id="name" class="contact-field"></label> <br/>
+                <label>Phone<br/></label><input type="phone" value="" placeholder="Phone Number" id="phone" name="phone number" class="contact-field"></label>    <br/>
+                <label>Email <br/><input type="email" value="" placeholder="Email" name="email" id="email" class="contact-field"></label>      <br/>
+                <label>Address <br/><textarea value="" placeholder="Address" id="address" class="contact-field"></textarea></label>  <br/>
+                <label>City <br/><input type="text" value="" placeholder="City" name="city" id="city" class="contact-field"></label>      <br/>
+                <button id="saveButton">Save</button>
+                <button id="cancelButton">Cancel</button>
+           
+        </div>
+
+        <div class="addBook">
+            <div class="entry row">
+                <div class="name col-md-2"><p>Gbenga Kusade</p></div>
+                <div class="phone col-md-2"><p>+2349057183699</p></div>
+                <div class="email col-md-2"><p>insighttectnet@gmail.com</p></div>
+                <div class="address col-md-2"><p>5 sango ota, ogun state</p></div>
+                <div class="city col-md-2"><p>Sango ota</p></div>
+                <div class="del col-md-2"><a href="#">Delete</a></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+width: auto;
+height: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-items: center;
+padding-left: 40%;
+}
+
+.del{
+    background-color:rgb(189, 41, 41); 
+    color: #fff;
+    font: 14px;
+}
+.del a{
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    
+}
